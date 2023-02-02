@@ -1,0 +1,62 @@
+html{
+    background: url('https://images.unsplash.com/photo-1624359136353-f60129a367b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')
+}
+*{
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 557px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+#AC{
+    background-color: rgba(255, 51, 0, 0.68);
+}
+#equal{
+    background-color: rgba(35, 98, 245, 0.702);
+    width: 118px;
+}
+#sin, #cos, #tan{
+    background-color: rgba(255, 208, 0, 0.68);
+    color: black;
+}
+.calculator{
+
+    background-color:#2d333f ;
+    padding: 12px ;
+    border-radius:24px ;
+}
+#displaybox{
+    color: rgb(83, 179, 131);
+    font-family: 'Orbitron', sans-serif;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(38, 38, 38, 0.818);
+    border-width: 1.3px;
+    box-shadow: -8px -8px 15px rgba(251, 251, 251, 0.062),5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin: 7px;
+}
+form .display{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 20px;
+}
