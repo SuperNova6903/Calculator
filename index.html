@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LCB2022046</title>
+    <title>CASIO - Calculator</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
@@ -17,21 +17,21 @@
                 <div class="display">
                     <input type="text" id="displaybox" name="display" placeholder="CASIO">
                 </div>
-                <div>
+                <div class="input-buttons">
                     <input type="button" value="AC" id="AC" onclick="display.value='' ">
                     <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)">
                     <input type="button" value="." onclick="display.value += '.'">
                     <input type="button" value="&div;" onclick="display.value += '/'">
                     <input type="button" value="(" onclick="display.value += '('">
                 </div>
-                <div>
+                <div class="input-buttons">
                     <input type="button" value="7" onclick="display.value += '7'">
                     <input type="button" value="8" onclick="display.value += '8'">
                     <input type="button" value="9" onclick="display.value += '9'">
                     <input type="button" value="&times;" onclick="display.value += '*'">
                     <input type="button" value=")" onclick="display.value += ')'">
                 </div>
-                <div> 
+                <div class="input-buttons"> 
                     <input type="button" value="4" onclick="display.value += '4'">
                     <input type="button" value="5" onclick="display.value += '5'">
                     <input type="button" value="6" onclick="display.value += '6'">
@@ -39,21 +39,21 @@
                     <input type="button" value="&radic;" id="sqrt" onclick="display.value += 'Math.sqrt('">
                     
                 </div>
-                <div>
+                <div class="input-buttons">
                     <input type="button" value="1" onclick="display.value += '1'">
                     <input type="button" value="2" onclick="display.value += '2'">
                     <input type="button" value="3" onclick="display.value += '3'">
                     <input type="button" value="+" onclick="display.value += '+'">
                     <input type="button" value="&#8731" id="cbrt" onclick="display.value += 'Math.cbrt('">
                 </div>
-                <div>
+                <div class="input-buttons">
                     <input type="button" value="00" onclick="display.value += '00'">
                     <input type="button" value="0" onclick="display.value += '0'">
                     <input type="button" value="%" onclick="display.value += '%'">
                     <input type="button" value="log" id="log" onclick="display.value += 'Math.log('">
                     <input type="button" value="x&#170" id="exp" onclick="display.value += '**'">
                 </div>
-                <div>
+                <div class="input-buttons">
                     <input type="button" value="sin" id="sin" onclick="display.value += 'Math.sin('">
                     <input type="button" value="cos" id="cos" onclick="display.value += 'Math.cos('">
                     <input type="button" value="tan" id="tan" onclick="display.value += 'Math.tan('">
